@@ -1,4 +1,5 @@
 import React from "react"
+import Img_graduation from '../images/graduation.jpg' // eslint-disable-line @typescript-eslint/no-unused-vars
 
 function About() {
 	return (
@@ -56,7 +57,7 @@ function About() {
 							</div>
 						</div>
 						<div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-							<img src="https://source.unsplash.com/random/361x481" alt="" className="mx-auto rounded-lg shadow-[15px_15px_75px_15px_#e2e8f0] dark:bg-gray-500" />
+							<img src={Img_graduation} width={361} height={481} alt="" className="mx-auto rounded-lg shadow-[15px_15px_75px_15px_#e2e8f0] dark:bg-gray-500" />
 						</div>
 					</div>
 				</div>

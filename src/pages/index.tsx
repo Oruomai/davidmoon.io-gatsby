@@ -4,7 +4,7 @@ import Footer from "../components/footer"
 import Navbar from "../components/navbar"
 import About from "../components/about"
 import Logos from "../components/logos"
-import Content from "../components/test"
+import Work from "../components/work"
 
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
 
@@ -25,7 +25,7 @@ export default function Home() {
       </div>
       <About />
       <Logos />
-      <Content />
+      <Work />
     </main>
   )
 }
