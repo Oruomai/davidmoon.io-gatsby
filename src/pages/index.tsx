@@ -4,6 +4,7 @@ import Footer from "../components/footer"
 import Navbar from "../components/navbar"
 import About from "../components/about"
 import Logos from "../components/logos"
+import Content from "../components/test"
 
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
 
@@ -12,9 +13,9 @@ export default function Home() {
     <main>
       <Navbar />
       <div className="home">
-        <h1 className="header_1">I am.</h1>
-        <h1 className="header_2">David.</h1>
-        <h1 className="header_3">Moon.</h1>
+        <h1 className="header_1">I am</h1>
+        <h1 className="header_2">David</h1>
+        <h1 className="header_3">Moon</h1>
         <p className="header_4">A recent Electrical Engineering graduate with a minor in Mathematics.</p>
         <p className="header_5">Seeking a full-time position or an internship opportunity.</p>
         <div className="home_button">
@@ -24,6 +25,7 @@ export default function Home() {
       </div>
       <About />
       <Logos />
+      <Content />
     </main>
   )
 }
