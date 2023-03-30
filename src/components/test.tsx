@@ -1,4 +1,6 @@
 import React from "react"
+import Image_1 from '../images/clocks.png' // eslint-disable-line @typescript-eslint/no-unused-vars
+import Image_2 from '../images/classia.png' // eslint-disable-line @typescript-eslint/no-unused-vars
 
 export const Content = () => {
     return (
@@ -32,14 +34,15 @@ export const Content = () => {
                         </div>
                     </a>
                     <h5 className="mb-4 text-4xl font-extrabold leading-none">
-                        classia.io
+                        clocks.app
                     </h5>
                     <p className="mb-6 text-gray-900">
-                        A full-stack web application on Heroku. The website offers a comprehensive list of most highly rated literature from authors who have been deceased for at least 30 years.
+                        A clock web application on Netlify. The website offers high performance and a sleek,
+                        minimalist design clocks.
                     </p>
-                    <kbd className="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Node.js</kbd>
-                    <kbd className="ml-1 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Express.js</kbd>
-                    <kbd className="ml-1 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">MongoDB</kbd>
+                    <kbd className="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Next.js</kbd>
+                    <kbd className="ml-1 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Typescript</kbd>
+                    <kbd className="ml-1 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Sass</kbd>
                     <hr className="mt-5 mb-5 border-gray-300" />
                     <div className="flex items-center space-x-4">
                         <a
@@ -79,8 +82,8 @@ export const Content = () => {
                 </div>
                 <div>
                     <img
-                        className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                        src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                        className="object-cover w-full h-56 rounded shadow-[0px_15px_30px_15px_#e2e8f0] sm:h-96"
+                        src={Image_1}
                         alt=""
                     />
                 </div>
@@ -158,8 +161,8 @@ export const Content = () => {
                 </div>
                 <div>
                     <img
-                        className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                        src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                        className="object-cover w-full h-56 rounded shadow-[0px_15px_30px_15px_#e2e8f0] sm:h-96"
+                        src={Image_2}
                         alt=""
                     />
                 </div>
