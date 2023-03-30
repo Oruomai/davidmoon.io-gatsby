@@ -2,7 +2,10 @@ import * as React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Navbar from "../components/navbar"
+import About from "../components/about"
+import Logos from "../components/logos"
 
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
 
 export default function Home() {
   return (
@@ -19,7 +22,8 @@ export default function Home() {
           <button className="home_button_2">Github</button>
         </div>
       </div>
-      <Footer />
+      <About />
+      <Logos />
     </main>
   )
 }
