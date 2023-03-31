@@ -6,10 +6,10 @@ import Image_4 from '../images/carsofamerica.png' // eslint-disable-line @typesc
 
 export const Work = () => {
     return (
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div id="work" className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 mb-[200px]">
             <div>
                 <h2 className="text-4xl font-bold tracking-tight text-center sm:text-6xl dark:text-gray-50">My personal projects.</h2>
-                <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-[#666666]"> I enjoy to apply my skills and passion to help build user-friendly and visually-appealing websites and web-based software.</p>
+                <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-grey"> I enjoy to apply my skills and passion to help build user-friendly and visually-appealing websites and web-based software.</p>
             </div>
             <div className="grid gap-10 lg:grid-cols-2 mt-20">
                 <div className="lg:pr-10">
