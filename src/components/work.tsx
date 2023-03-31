@@ -2,6 +2,8 @@ import React from "react"
 import Image_1 from '../images/clocks.png' // eslint-disable-line @typescript-eslint/no-unused-vars
 import Image_2 from '../images/classia.png' // eslint-disable-line @typescript-eslint/no-unused-vars
 
+import Image_4 from '../images/carsofamerica.png' // eslint-disable-line @typescript-eslint/no-unused-vars
+
 export const Work = () => {
     return (
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -13,6 +15,7 @@ export const Work = () => {
                 <div className="lg:pr-10">
                     <a
                         href="https://clocks.app"
+                        target="_blank"
                         aria-label="Go Home"
                         title="clocks.app"
                         className="inline-block mb-5"
@@ -34,7 +37,8 @@ export const Work = () => {
                     <hr className="mt-5 mb-5 border-gray-300" />
                     <div className="flex items-center space-x-4">
                         <a
-                            href="/"
+                            href="https://github.com/Oruomai/clocks.app"
+                            target="_blank"
                             className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
@@ -53,7 +57,8 @@ export const Work = () => {
             <div className="grid gap-10 lg:grid-cols-2 mt-20">
                 <div className="lg:pr-10">
                     <a
-                        href="/"
+                        href="https://davidmoon.io"
+                        target="_blank"
                         aria-label="Go Home"
                         title="Logo"
                         className="inline-block mb-5"
@@ -73,7 +78,8 @@ export const Work = () => {
                     <hr className="mt-5 mb-5 border-gray-300" />
                     <div className="flex items-center space-x-4">
                         <a
-                            href="/"
+                            href="https://github.com/Oruomai/davidmoon.io-gatsby"
+                            target="_blank"
                             className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
@@ -92,7 +98,8 @@ export const Work = () => {
             <div className="grid gap-10 lg:grid-cols-2 mt-20">
                 <div className="lg:pr-10">
                     <a
-                        href="/"
+                        href="https://classia.io"
+                        target="_blank"
                         aria-label="Go Home"
                         title="Logo"
                         className="inline-block mb-5"
@@ -113,7 +120,8 @@ export const Work = () => {
                     <hr className="mt-5 mb-5 border-gray-300" />
                     <div className="flex items-center space-x-4">
                         <a
-                            href="/"
+                            href="https://github.com/Oruomai/classia.io"
+                            target="_blank"
                             className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
@@ -133,7 +141,8 @@ export const Work = () => {
             <div className="grid gap-10 lg:grid-cols-2 mt-20">
                 <div className="lg:pr-10">
                     <a
-                        href="/"
+                        href="https://carsofamerica.biz"
+                        target="_blank" 
                         aria-label="Go Home"
                         title="Logo"
                         className="inline-block mb-5"
@@ -154,7 +163,7 @@ export const Work = () => {
                 <div>
                     <img
                         className="object-cover w-full h-56 rounded shadow-[0px_15px_30px_15px_#e2e8f0] sm:h-96"
-                        src={Image_2}
+                        src={Image_4}
                         alt=""
                     />
                 </div>
