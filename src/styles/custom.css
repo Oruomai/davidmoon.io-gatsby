@@ -63,6 +63,7 @@ h1 {
     font-weight: 800;
     color: #fff;
     letter-spacing: -0.03em;
+    user-select: none !important; 
 }
 
 .heading-line {
@@ -268,5 +269,10 @@ h1 {
     }
     h1, .heading-line::before {
         line-height: 1.5;
+    }
+
+    .landing_paragraph {
+        font-size: 1.25rem; /* 20px */
+        line-height: 1.75rem;
     }
 }
