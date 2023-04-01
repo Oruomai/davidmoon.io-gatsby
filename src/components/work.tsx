@@ -34,8 +34,8 @@ export const Work = () => {
                         clocks.app
                     </h5>
                     <p className="mb-6 text-gray-900">
-                        A clock web application built with Next.js and hosted on Netlify. The website
-                        offers high-performance and sleek, minimalist designed clocks.
+                        A clock web application built with Next.js and hosted on Netlify. The website offers high-performance and sleek,
+                        minimalist designed clocks.
                     </p>
                     <kbd className="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Next.js</kbd>
                     <kbd className="ml-1 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Typescript</kbd>
