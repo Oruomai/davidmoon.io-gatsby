@@ -6,7 +6,13 @@ function About() {
 		<section id="about" className="dark:bg-gray-800 dark:text-gray-100 mt-20">
 			<div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
 				<div>
-					<h2 className="text-4xl font-bold tracking-tight text-center sm:text-6xl dark:text-gray-50">Howdy, my name is David.</h2>
+					<a className="mx-auto">
+						<div className="flex items-center mx-auto justify-center w-12 h-12 rounded-full bg-gradient-to-r from-[#ed8936] to-[#ed64a6]">
+							<svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 256 512"><path fill="white" d="M160 64c0-11.8-6.5-22.6-16.9-28.2s-23-5-32.8 1.6l-96 64C-.5 111.2-4.4 131 5.4 145.8s29.7 18.7 44.4 8.9L96 123.8V416H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h96 96c17.7 0 32-14.3 32-32s-14.3-32-32-32H160V64z" /></svg>
+						</div>
+					</a>
+					<h1 className="mt-6 text-2xl bg-gradient-to-r from-[#ed8936] to-[#ed64a6] bg-clip-text text-transparent text-center uppercase">about</h1>
+					<h2 className="mt-6 text-4xl font-bold tracking-tight text-center sm:text-6xl dark:text-gray-50">Howdy, I'm David.</h2>
 					<p className="max-w-3xl mx-auto mt-4 text-xl text-center text-grey">I am a recent graduate of Texas A&N University, where I majored in Electrical Engineering. During my time in college, I developed a passion for designing and developing web software.</p>
 				</div>
 				<div>
