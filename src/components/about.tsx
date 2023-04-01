@@ -7,7 +7,7 @@ function About() {
 			<div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
 				<div>
 					<h2 className="text-4xl font-bold tracking-tight text-center sm:text-6xl dark:text-gray-50">Howdy, my name is David.</h2>
-					<p className="max-w-3xl mx-auto mt-4 text-xl text-center text-[#666666]">I am a recent graduate of Texas A&N University, where I majored in Electrical Engineering. During my time in college, I developed a passion for designing and developing web software.</p>
+					<p className="max-w-3xl mx-auto mt-4 text-xl text-center text-grey">I am a recent graduate of Texas A&N University, where I majored in Electrical Engineering. During my time in college, I developed a passion for designing and developing web software.</p>
 				</div>
 				<div>
 					<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">

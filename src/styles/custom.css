@@ -266,7 +266,7 @@ h1 {
     .heading-line-third::before {
         font-size: 100px;
     }
-    .heading-line::before {
+    h1, .heading-line::before {
         line-height: 1.5;
     }
 }
