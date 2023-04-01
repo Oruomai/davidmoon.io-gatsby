@@ -71,6 +71,7 @@ h1 {
     display: block;
     position: relative;
     text-align: center;
+    user-select: none !important; 
 }
 
 .heading-line-gradient {
@@ -102,6 +103,7 @@ h1 {
     color: #000;
     pointer-events: none;
     width: 100%;
+    user-select: none !important; 
 }
 
 .heading-line-first::before {
