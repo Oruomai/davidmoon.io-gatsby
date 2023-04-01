@@ -13,12 +13,12 @@ function About() {
 					</a>
 					<h1 className="mt-6 text-2xl bg-gradient-to-r from-[#ed8936] to-[#ed64a6] bg-clip-text text-transparent text-center uppercase">about</h1>
 					<h2 className="mt-6 text-4xl font-bold tracking-tight text-center sm:text-6xl dark:text-gray-50">Howdy, I'm David.</h2>
-					<p className="max-w-3xl mx-auto mt-4 text-xl text-center text-grey">I am a recent graduate of Texas A&N University, where I majored in Electrical Engineering. During my time in college, I developed a passion for designing and developing web software.</p>
+					<p className="max-w-3xl mx-auto mt-4 text-xl text-center text-grey">I am a recent graduate of Texas A&M University, where I majored in Electrical Engineering. During my time in college, I developed a passion for designing and developing web software.</p>
 				</div>
 				<div>
 					<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
 						<div className="lg:col-start-2">
-							<h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-50">"Hello, World!"</h3>
+							<h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-50">"Hello, World"</h3>
 							<p className="mt-3 text-lg font-sans text-grey">I am now seeking opportunities to utilize my skills and continue growing in the field of web development.</p>
 							<div className="mt-12 space-y-12">
 								<div className="flex">
