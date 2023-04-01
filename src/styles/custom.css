@@ -261,6 +261,9 @@ h1 {
     .landing_section {
         margin-top: 5rem;
     }
+    .contact_section {
+        margin-bottom: 5rem;
+    }
     .heading-line-gradient, 
     .heading-line-first::before, 
     .heading-line-second::before, 
