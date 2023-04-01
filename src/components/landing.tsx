@@ -4,7 +4,7 @@ function Landing() {
     return (
         <section className="dark:bg-gray-800 dark:text-gray-100 mt-60 mb-60 landing_section">
             <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-6xl">
-                <h1 className="headings">
+                <h1>
                     <span className="text-9xl font-black leading-none sm:text-9xl heading-line heading-line-first">
                         <span className="text-9xl font-black leading-none sm:text-9xl heading-line-gradient">I am</span>
                     </span>

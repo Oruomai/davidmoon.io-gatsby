@@ -260,7 +260,13 @@ h1 {
     .landing_section {
         margin-top: 5rem;
     }
-    .headings {
-        font-size: 2rem;
+    .heading-line-gradient, 
+    .heading-line-first::before, 
+    .heading-line-second::before, 
+    .heading-line-third::before {
+        font-size: 100px;
+    }
+    .heading-line::before {
+        line-height: 1.5;
     }
 }
