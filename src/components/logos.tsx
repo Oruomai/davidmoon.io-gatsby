@@ -2,7 +2,7 @@ import React from "react"
 
 function Logos() {
     return (
-        <section className="dark:bg-gray-800 dark:text-gray-100 mb-[200px]">
+        <section className="dark:bg-gray-800 dark:text-gray-100 mb-[150px]">
             <div className="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8 max-w-xl">
                 <h2 className="text-sm font-bold mb-10 text-grey tracking-[.2rem]">FAMILIAR FRAMEWORKS AND LIBRARIES</h2>
                 <div className="flex flex-wrap justify-center lg:justify-between">

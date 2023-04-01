@@ -6,7 +6,7 @@ import Image_4 from '../images/carsofamerica.png' // eslint-disable-line @typesc
 
 export const Work = () => {
     return (
-        <div id="work" className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 mb-[200px]">
+        <div id="work" className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 mt-20 mb-[150px]">
             <div>
                 <a className="mx-auto">
                     <div className="flex items-center mx-auto justify-center w-12 h-12 rounded-full bg-gradient-to-r from-[#38b2ac] to-[#0bc5ea]">
