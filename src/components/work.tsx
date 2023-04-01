@@ -1,6 +1,6 @@
 import React from "react"
 import Image_1 from '../images/clocks.png' // eslint-disable-line @typescript-eslint/no-unused-vars
-import Image_2 from '../images/davidmoon.png' // eslint-disable-line @typescript-eslint/no-unused-vars
+import Image_2 from '../images/portfolio.png' // eslint-disable-line @typescript-eslint/no-unused-vars
 import Image_3 from '../images/classia.png' // eslint-disable-line @typescript-eslint/no-unused-vars
 import Image_4 from '../images/carsofamerica.png' // eslint-disable-line @typescript-eslint/no-unused-vars
 
