@@ -265,7 +265,7 @@ h1 {
     .heading-line-first::before, 
     .heading-line-second::before, 
     .heading-line-third::before {
-        font-size: 80px;
+        font-size: 100px;
     }
     .heading-line {
         line-height: 0.3 !important;
@@ -278,6 +278,6 @@ h1 {
     }
 
     .linkedin_button, .github_button {
-        width: 256px;
+        width: 400px;
     }
 }
