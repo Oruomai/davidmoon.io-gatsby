@@ -272,7 +272,12 @@ h1 {
     }
 
     .landing_paragraph {
-        font-size: 1.25rem; /* 20px */
+        font-size: 1.25rem;
         line-height: 1.75rem;
+        max-width: 48rem;
+    }
+
+    .linkedin_button, .github_button {
+        width: 16rem;
     }
 }
