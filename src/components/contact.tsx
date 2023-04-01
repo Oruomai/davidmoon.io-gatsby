@@ -19,7 +19,7 @@ export const Contact = () => {
                         </p>
                     </div>
                     <div>
-                        <a href="https://www.linkedin.com/in/davmoon/" target="_blank" rel="noopener noreferrer" className="px-8 py-3 m-2 text-lg bolder border font-semibold rounded bg-black text-white w-48 contact_button">Say Hello</a>
+                        <button onClick={() => window.open('mailto:hrmoon99@gmail.com', '_blank')} className="px-8 py-3 m-2 text-lg bolder border font-semibold rounded bg-black text-white w-48 contact_button">Say Hello</button>
                     </div>
                 </div>
             </div>

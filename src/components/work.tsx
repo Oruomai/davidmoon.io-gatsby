@@ -1,7 +1,7 @@
 import React from "react"
 import Image_1 from '../images/clocks.png' // eslint-disable-line @typescript-eslint/no-unused-vars
-import Image_2 from '../images/classia.png' // eslint-disable-line @typescript-eslint/no-unused-vars
-
+import Image_2 from '../images/davidmoon.png' // eslint-disable-line @typescript-eslint/no-unused-vars
+import Image_3 from '../images/classia.png' // eslint-disable-line @typescript-eslint/no-unused-vars
 import Image_4 from '../images/carsofamerica.png' // eslint-disable-line @typescript-eslint/no-unused-vars
 
 export const Work = () => {
@@ -131,7 +131,7 @@ export const Work = () => {
                 <div>
                     <img
                         className="object-cover w-full h-56 rounded shadow-[0px_15px_30px_15px_#e2e8f0] sm:h-96"
-                        src={Image_2}
+                        src={Image_3}
                         alt=""
                     />
                 </div>
