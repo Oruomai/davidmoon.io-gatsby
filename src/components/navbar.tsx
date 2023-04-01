@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from '../images/logo.png' // eslint-disable-line @typescript-eslint/no-unused-vars
+import Logo from '../images/logos.png' // eslint-disable-line @typescript-eslint/no-unused-vars
 
 function Navbar() {
     const [isNavOpen, setIsNavOpen] = React.useState(false);
