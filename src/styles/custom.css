@@ -259,7 +259,8 @@ h1 {
 
 @media only screen and (max-width: 768px) {
     .landing_section {
-        margin-top: 5rem;
+        margin-top: 4rem;
+        margin-bottom: 150px;
     }
     .heading-line-gradient, 
     .heading-line-first::before, 
