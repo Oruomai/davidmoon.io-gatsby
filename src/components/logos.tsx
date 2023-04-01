@@ -3,7 +3,7 @@ import React from "react"
 function Logos() {
     return (
         <section className="dark:bg-gray-800 dark:text-gray-100 mb-[150px]">
-            <div className="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8 max-w-xl">
+            <div className="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8 max-w-xl logos_section">
                 <h2 className="text-sm font-bold mb-10 text-grey tracking-[.2rem]">FAMILIAR FRAMEWORKS AND LIBRARIES</h2>
                 <div className="flex flex-wrap justify-center lg:justify-between">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-label="React" className="w-9 h-9 mx-10 my-6 fill-current md:mx-12 lg:m-0 dark:text-gray-400">
