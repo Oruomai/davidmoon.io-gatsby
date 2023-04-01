@@ -257,7 +257,7 @@ h1 {
     animation: third_heading_white_text 8s infinite;
 }
 
-@media only screen and (max-width: 926px) {
+@media only screen and (max-width: 768px) {
     .landing_section {
         margin-top: 5rem;
     }
