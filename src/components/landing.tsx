@@ -16,7 +16,7 @@ function Landing() {
                     </span>
                 </h1>
                 <p className="px-8 mt-8 mb-12 text-2xl text-grey leading-relaxed landing_paragraph">A recent Electrical Engineering graduate with a minor in Mathematics.
-                    <br />Seeking a full-time position or an internship opportunity.</p>
+                    Seeking a full-time position or an internship opportunity.</p>
                 <div className="flex flex-wrap justify-center">
                     <a href="https://www.linkedin.com/in/davmoon/" target="_blank" rel="noopener noreferrer" className="px-8 py-3 m-2 text-lg bolder border font-semibold rounded bg-black text-white w-48 linkedin_button">LinkedIn</a>
                     <a href="https://github.com/oruomai/" target="_blank" rel="noopener noreferrer" className="px-8 py-3 m-2 text-lg bolder border font-semibold rounded bg-white text-black w-48 github_button">Github</a>

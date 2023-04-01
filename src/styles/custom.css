@@ -265,16 +265,16 @@ h1 {
     .heading-line-first::before, 
     .heading-line-second::before, 
     .heading-line-third::before {
-        font-size: 100px;
+        font-size: 80px;
     }
     .heading-line {
-        line-height: 0.6;
+        line-height: 0.3 !important;
     }
 
     .landing_paragraph {
         font-size: 1.25rem;
         line-height: 1.75rem;
-        max-width: 768px;
+        max-width: 100%
     }
 
     .linkedin_button, .github_button {
