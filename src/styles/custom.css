@@ -267,8 +267,8 @@ h1 {
     .heading-line-third::before {
         font-size: 100px;
     }
-    h1, .heading-line::before {
-        line-height: 1.5;
+    .heading-line {
+        line-height: 0.6;
     }
 
     .landing_paragraph {
