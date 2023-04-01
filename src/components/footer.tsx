@@ -9,7 +9,8 @@ export const Footer = () => {
                 </p>
                 <div className="flex items-center mt-4 space-x-4 sm:mt-0">
                     <a
-                        href="/"
+                        href="https://www.linkedin.com/in/davmoon/"
+                        target="_blank" rel="noopener noreferrer"
                         className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                         <svg viewBox="0 0 32 32" fill="currentColor" className="h-5">
@@ -17,7 +18,8 @@ export const Footer = () => {
                         </svg>
                     </a>
                     <a
-                        href="/"
+                        href="https://github.com/oruomai"
+                        target="_blank" rel="noopener noreferrer"
                         className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                         <svg viewBox="0 0 32 32" fill="currentColor" className="h-5">

@@ -2,62 +2,243 @@
     background: #79ffe1
 }
 
-.home {
-    width: 100%;
-    height: 90vh;
-    max-width: 80vw;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.linkedin_button {
+    transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.header_1,
-.header_2,
-.header_3 {
-    font-size: 8rem;
-    font-family: 'Inter', sans-serif;
-    padding: 0.05em;
+.linkedin_button:hover {
+    color: black;
+    background-color: white;
+}
+
+.resume_button {
+    transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.resume_button:hover {
+    color: black;
+    background-color: white;
+}
+
+.github_button {
+    transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.github_button:hover {
+    color: white;
+    background-color: black;
+}
+
+.contact_button {
+    transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.contact_button:hover {
+    color: black;
+    background-color: white;
+}
+
+body {
+    /* make the rendered glyphs a bit smoother around the edges */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    margin: 0;
+    font-size: 160px;
     font-weight: 800;
-    letter-spacing: -.06em;
-    line-height: 1;
-}
-
-.header_4 {
-    margin-top: 50px;
-}
-
-.header_4,
-.header_5 {
-    font-size: 1.5rem;
-    font-family: 'Inter', sans-serif;
-    color: #666666;
-    padding: 0.05em;
-    font-weight: 400;
-    letter-spacing: -.02em;
-    line-height: 1.6em;
-}
-
-.home_button_1 {
-    margin-right: 10px;
-}
-
-.home_button_1,
-.home_button_2 {
-    width: 150px;
-    height: 48px;
-    border: 1px solid #000;
-    background-color: #000;
     color: #fff;
-    border-radius: 5px;
-    margin-top: 50px
+    letter-spacing: -0.03em;
 }
 
-.about {
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.heading-line {
+    line-height: 1;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.heading-line-gradient {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/* move this from .heading-line-first */
+.heading-line-first>.heading-line-gradient {
+    background-image: linear-gradient(to left, #ed8936, #ed64a6);
+}
+
+/* move this from .heading-line-second */
+.heading-line-second>.heading-line-gradient {
+    background-image: linear-gradient(to left, #38b2ac, #0bc5ea);
+}
+
+/* move this from .heading-line-third */
+.heading-line-third>.heading-line-gradient {
+    background-image: linear-gradient(to left, #ecc94b, #48bb78);
+}
+
+/* white text underneath the gradient text */
+.heading-line::before {
+    line-height: 1;
+    display: block;
+    position: absolute;
+    color: #000;
+    pointer-events: none;
+    width: 100%;
+}
+
+.heading-line-first::before {
+    content: "I am";
+}
+
+.heading-line-second::before {
+    content: "David";
+}
+
+.heading-line-third::before {
+    content: "Moon";
+}
+
+@keyframes first_heading_gradient {
+
+    0%,
+    /* 16.667 = 1/6 */
+    16.667% {
+        opacity: 1;
+    }
+
+    /* 33.333% = 2/6 */
+    33.333%,
+    /* 83.333% = 5/6 */
+    83.333% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.heading-line-first>.heading-line-gradient {
+    /* ... */
+    animation: first_heading_gradient 8s infinite;
+}
+
+@keyframes second_heading_gradient {
+
+    0%,
+    16.667% {
+        opacity: 0;
+    }
+
+    33.333%,
+    50% {
+        opacity: 1;
+    }
+
+    66.667%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes third_heading_gradient {
+
+    0%,
+    50% {
+        opacity: 0;
+    }
+
+    66.667%,
+    83.333% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.heading-line-second>.heading-line-gradient {
+    /* ... */
+    animation: second_heading_gradient 8s infinite;
+}
+
+.heading-line-third>.heading-line-gradient {
+    /* ... */
+    animation: third_heading_gradient 8s infinite;
+}
+
+@keyframes first_heading_white_text {
+
+    0%,
+    /* 16.667 = 2/12 */
+    16.667% {
+        opacity: 0;
+    }
+
+    /* 25% = 3/12 */
+    25%,
+    /* 16.667 = 9/12 */
+    91.667% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.heading-line-first::before {
+    /* ... */
+    animation: first_heading_white_text 8s infinite;
+}
+
+@keyframes second_heading_white_text {
+
+    0%,
+    25% {
+        opacity: 1;
+    }
+
+    33.333%,
+    50% {
+        opacity: 0;
+    }
+
+    58.333%,
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes third_heading_white_text {
+
+    0%,
+    58.333% {
+        opacity: 1;
+    }
+
+    66.667%,
+    83.333% {
+        opacity: 0;
+    }
+
+    91.667%,
+    100% {
+        opacity: 1;
+    }
+}
+
+.heading-line-second::before {
+    /* ... */
+    animation: second_heading_white_text 8s infinite;
+}
+
+.heading-line-third::before {
+    /* ... */
+    animation: third_heading_white_text 8s infinite;
 }
