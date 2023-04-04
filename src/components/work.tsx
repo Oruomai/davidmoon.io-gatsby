@@ -77,7 +77,7 @@ export const Work = () => {
                         davidmoon.io
                     </h5>
                     <p className="mb-6 text-gray-900">
-                        A personal portfolio website built with Gatsby and hosted on Netlify. The web page was designed to showcase my projects, skills, and experience as a web developer.
+                        A personal portfolio website built with Gatsby and hosted on Netlify. The website is designed to showcase my projects, skills, and experience as a web developer.
                     </p>
                     <kbd className="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Gatsby</kbd>
                     <kbd className="ml-1 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Tailwind CSS</kbd>
