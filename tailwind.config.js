@@ -11,6 +11,7 @@ module.exports = {
       },
       colors: {
         'grey': '#666666',
+        'mint': '#64ffda'
       },
     },
   },
