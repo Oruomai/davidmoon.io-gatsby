@@ -3,6 +3,6 @@
 @tailwind utilities;
 @import url('https://fonts.cdnfonts.com/css/inter');
 
-html {
+*, html {
     scroll-behavior: smooth !important;
 }
