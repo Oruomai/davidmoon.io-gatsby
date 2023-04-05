@@ -3,8 +3,8 @@ import Img_graduation from '../images/graduation.jpg' // eslint-disable-line @ty
 
 function About() {
 	return (
-		<section id="about" className="dark:bg-gray-800 dark:text-gray-100 mt-20">
-			<div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+		<section id="about" className="dark:bg-gray-800 dark:text-gray-100">
+			<div className="container max-w-xl p-6 py-20 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
 				<div>
 					<a className="mx-auto">
 						<div className="flex items-center mx-auto justify-center w-12 h-12 rounded-full bg-gradient-to-r from-[#ed8936] to-[#ed64a6]">
