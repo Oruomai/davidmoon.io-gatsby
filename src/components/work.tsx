@@ -118,7 +118,7 @@ export const Work = () => {
                         classia.io
                     </h5>
                     <p className="mb-6 text-gray-900">
-                        A full-stack web application on Heroku. The website offers a comprehensive list of most highly rated literature from authors who have been deceased for at least 30 years.
+                        A full-stack web application hosted on Heroku. The website offers a comprehensive list of most highly rated literature from authors who have been deceased for at least 30 years.
                     </p>
                     <kbd className="px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Node.js</kbd>
                     <kbd className="ml-1 px-2 py-1.5 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-100 dark:border-gray-500">Express.js</kbd>
