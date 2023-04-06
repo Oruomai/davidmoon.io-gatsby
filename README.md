@@ -1,8 +1,8 @@
-<div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/Oruomai/davidmoon.io-gatsby/main/src/images/logos.png" width="150" />
+<br></br>
+<div align="center" >
+  <img alt="Logo" src="https://raw.githubusercontent.com/Oruomai/davidmoon.io-gatsby/main/src/images/logos.png" width="200" />
 </div>
 <h1 align="center">
-  davidmoon.io
 </h1>
 </p>
 
