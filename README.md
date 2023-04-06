@@ -22,11 +22,15 @@ A personal portfolio website built with Gatsby and hosted on Netlify. The websit
 
 #### Built With
 
-- **Frontend:**
+- **Frontend Framework:**
   - [![Gatsby](https://img.shields.io/badge/-Gatsby-purple?style=flat-square&logo=gatsby&logoColor=white)](https://www.gatsbyjs.com/)
-  - [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-blue?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+- **CSS Framework:**
+  - [![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-blue?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+- **Programming Language:**
+  - [![TypeScript](https://img.shields.io/badge/-TypeScript-blue?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 - **Deployment:**
   - [![Netlify](https://img.shields.io/badge/-Netlify-black?style=flat-square&logo=netlify&logoColor=white)](https://www.netlify.com/)
+
 
 ## 🎨 Color Reference
 
