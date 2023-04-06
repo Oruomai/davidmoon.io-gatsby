@@ -1,49 +1,36 @@
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/Oruomai/davidmoon.io-gatsby/main/src/images/logos.png" width="150" />
+</div>
+<h1 align="center">
+  davidmoon.io
+</h1>
+</p>
+
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  The second iteration of <a href="https://davidmoon.io" target="_blank">davidmoon.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+</p>
+
+<p align="center">
+  <a href="https://app.netlify.com/sites/davidmoon/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
   </a>
 </p>
-<h1 align="center">
-  Gatsby Minimal TypeScript Starter
-</h1>
 
-## 🚀 Quick start
+![demo](https://raw.githubusercontent.com/Oruomai/davidmoon.io-gatsby/main/src/images/portfolio.png)
+## 💡 About The Project 💡
+A personal portfolio website built with Gatsby and hosted on Netlify. The website is designed to showcase my projects, skills, and experience as a web developer.
 
-1.  **Create a Gatsby site.**
+#### Built With
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+- **Frontend:**
+  - [![Gatsby](https://img.shields.io/badge/-Gatsby-purple?style=flat-square&logo=gatsby&logoColor=white)](https://www.gatsbyjs.com/)
+  - [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-blue?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+- **Deployment:**
+  - [![Netlify](https://img.shields.io/badge/-Netlify-black?style=flat-square&logo=netlify&logoColor=white)](https://www.netlify.com/)
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
-    ```
+## 🎨 Color Reference
 
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.tsx` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Grey           | ![#666666](https://via.placeholder.com/10/666666?text=+) `#666666` |
+| Mint		     | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
