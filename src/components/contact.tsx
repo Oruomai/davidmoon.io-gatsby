@@ -16,7 +16,7 @@ export const Contact = () => {
                             Get In Touch
                         </h2>
                         <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-grey">
-                            Greeting! Thank you for visiting my personal portfolio website. If you have any questions or comments, I'd love to hear from you.
+                            Greeting! Thank you for visiting my portfolio website. If you have any questions or comments, I'd love to hear from you.
                         </p>
                     </div>
                     <div>
