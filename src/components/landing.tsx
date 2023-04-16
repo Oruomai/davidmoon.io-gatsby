@@ -19,7 +19,7 @@ function Landing() {
                     Seeking a full-time position in software.</p>
                 <div className="flex flex-wrap justify-center">
                     <a href="https://www.linkedin.com/in/davmoon/" target="_blank" rel="noopener noreferrer" className="px-8 py-3 m-2 text-lg bolder border font-semibold rounded bg-black text-white w-48 linkedin_button">LinkedIn</a>
-                    <a href="https://github.com/oruomai/" target="_blank" rel="noopener noreferrer" className="px-8 py-3 m-2 text-lg bolder border font-semibold rounded bg-white text-black w-48 github_button">Github</a>
+                    <a href="https://github.com/oruomai/" target="_blank" rel="noopener noreferrer" className="px-8 py-3 m-2 text-lg bolder border font-semibold rounded bg-white text-black w-48 github_button">GitHub</a>
                 </div>
             </div>
         </section>
