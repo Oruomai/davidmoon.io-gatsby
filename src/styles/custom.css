@@ -52,7 +52,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-    /* make the rendered glyphs a bit smoother around the edges */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
